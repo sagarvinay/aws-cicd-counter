@@ -1,0 +1,19 @@
+version: 1
+
+phases:
+  install:
+    comamnds:
+     - echo  Installing Node 14...
+     - curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+     - sudo apt-get install -y nodejs
+    
+    
+    pre_build: 
+      commands:
+       - echo  Installing dependencies...
+       - npm install
+    
+    build:
+      commands:
+       - echo Building...
+       - npm build
