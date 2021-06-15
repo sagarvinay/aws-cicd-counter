@@ -9,6 +9,7 @@ function App() {
         {/* <button onClick={() => {setCount(count+1)}}>+</button> */}
         <h1>Cashforphone coming soon</h1>
         {/* <button onClick={() => {setCount(count-1)}}>-</button> */}
+        <p>by Vinay Sagar</p>
       </header>
     </div>
   );
